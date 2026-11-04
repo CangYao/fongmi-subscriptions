@@ -3,30 +3,26 @@ FongMi subscription configurations
 Main subscription:
 https://cangyao.github.io/fongmi-subscriptions/all.json
 
-The main configuration merges these two inputs:
-https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json
-The previous all.json configuration in this repository (12 CMS sites and 1 live playlist).
+Latest availability audit: 2026-11-04.
+Current main configuration: 130 site entries and 5 live playlists.
+Removed 15 confirmed-broken site entries and 1 live playlist from the previous 145-site / 6-playlist configuration.
+Removal evidence: unavailable configured Spider classes, NXDOMAIN verified through Google and Cloudflare DNS, or repeated playlist HTTP 404 responses.
+See audit-summary.json for the exact removal list and checks performed.
 
-Result: 145 unique site configurations, 6 live playlists, 0 parse entries.
-Site configurations include VOD, music, utilities, local files and cloud-drive integrations; they are not all independent movie providers.
+Policy requested by the owner: only remove confirmed failures. Retain sources that require authorization, local helper services, network/proxy settings, or further Android testing.
+Retained entries are not all playback-verified. CMS and live playback tests inspect a sample of HLS playlists, media fragments and AES keys; they do not establish full playback on an Android device.
+67 dependency files were reachable and both configured JAR MD5 values matched. The JAR class inventory was inspected without executing third-party code.
 
-Changes:
-- Deduplicated Liangzi and Feifan CMS provider variants, retaining the existing direct JSON API entries.
-- Preserved different Spider/JS implementations as alternatives.
-- Resolved all upstream relative configuration paths against gaotianliuyun/gao.
-- Corrected three missing Wogg category/filter paths to the existing json/wogg.json.
-- Renamed a duplicate TGYunPan key so that both distinct site configurations remain accessible.
-- Replaced two GitHub proxy-wrapper live URLs with verified original GitHub URLs.
-- Verified declared MD5 hashes for the PG and XBPQ JARs and availability of three JS drivers. JARs and scripts were not executed.
-
-Some upstream sites require cloud-drive authorization, local helper services or network/proxy settings on the Android device. Importing a configuration does not supply these prerequisites. Full Android playback has not been tested.
+The main configuration merges gaotianliuyun/gao 0825.json with the original 12-CMS / 1-live configuration.
+Site entries include VOD, music, utilities, local-file and cloud-drive integrations.
+Relative dependencies and the prior duplicate provider/key issues have been resolved.
 
 Configuration selector:
 https://cangyao.github.io/fongmi-subscriptions/index.json
 
-The separate trial.json remains the previous 12 CMS sites plus 3 live playlists. The Guovin trial playlist is a snapshot last updated 2026-08-27.
+The separate trial.json remains the original 12 CMS sites plus 3 live playlists and is outside this main-subscription audit. The Guovin trial playlist is a snapshot dated 2026-08-27.
 
 Raw fallback:
 https://raw.githubusercontent.com/CangYao/fongmi-subscriptions/main/all.json
 
-Only public configuration addresses are stored here. These configurations are snapshots and are not automatically re-merged with upstream changes.
+Only public configuration addresses are stored here. Configurations are snapshots and are not automatically re-merged or retested.

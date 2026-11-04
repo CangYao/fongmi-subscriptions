@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-11-04T13:37:27.982Z",
+  "policy": "Remove confirmed failures only; retain authentication-dependent, uncertain, or not fully tested sources.",
+  "siteCountBefore": 145,
+  "siteCountAfter": 130,
+  "liveCountBefore": 6,
+  "liveCountAfter": 5,
+  "removedSites": [
+    {
+      "key": "快帆",
+      "name": "快帆",
+      "reason": "Domain NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "csp_YGP",
+      "name": "预告片",
+      "reason": "Spider class is absent from the configured JAR"
+    },
+    {
+      "key": "NanGua",
+      "name": "南瓜",
+      "reason": "Spider class is absent from the configured JAR"
+    },
+    {
+      "key": "Ikanbot",
+      "name": "爱看",
+      "reason": "Spider class is absent from the configured JAR"
+    },
+    {
+      "key": "MeijuTT",
+      "name": "美剧天天",
+      "reason": "Spider class is absent from the configured JAR"
+    },
+    {
+      "key": "drpy_js_310直播",
+      "name": "310直播",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "天天",
+      "name": "天天",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "Wogg",
+      "name": "玩偶",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "蜡笔网盘",
+      "name": "蜡笔",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "Panta",
+      "name": "盘Ta",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "Xpanpan",
+      "name": "小盘盘",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "Gitcafe",
+      "name": "纸条",
+      "reason": "Spider class is absent from the configured JAR"
+    },
+    {
+      "key": "七夜",
+      "name": "七夜",
+      "reason": "Spider class is absent from the configured JAR"
+    },
+    {
+      "key": "rarbt",
+      "name": "rarbt",
+      "reason": "Rule homepage domain NXDOMAIN from two DNS resolvers"
+    },
+    {
+      "key": "drpy_js_97tvs",
+      "name": "97tvs[js]",
+      "reason": "Explicit site domain is NXDOMAIN from two DNS resolvers"
+    }
+  ],
+  "removedLivePlaylists": [
+    {
+      "name": "俊于•综合",
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "reason": "Playlist HTTP 404/410 twice"
+    }
+  ],
+  "dependencyFilesChecked": 67,
+  "dependencyFilesAvailable": 67,
+  "jarMd5Checks": [
+    {
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar",
+      "ok": true,
+      "actualMd5": "dffec63fb83a2b31b8606bd4bf6bead9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XBPQ.jar",
+      "ok": true,
+      "actualMd5": "4145467d49e0437dc43e8bbb79e3ff7d"
+    }
+  ],
+  "cmsWithReachableHlsSamples": 11,
+  "liveGroupsWithReachableHlsSamples": 2,
+  "androidDevicePlaybackTested": false,
+  "remainingSourcesAreNotAllPlaybackVerified": true
+}
