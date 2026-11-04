@@ -1,0 +1,16 @@
+{
+  "urls": [
+    {
+      "name": "电脑原有全部源：12点播 + 1直播",
+      "url": "https://cangyao.github.io/fongmi-subscriptions/all.json"
+    },
+    {
+      "name": "直播扩展试用：12点播 + 3直播",
+      "url": "https://cangyao.github.io/fongmi-subscriptions/trial.json"
+    },
+    {
+      "name": "qist 点播试用：33站（配套JAR）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0827.json"
+    }
+  ]
+}
