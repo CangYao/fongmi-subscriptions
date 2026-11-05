@@ -5,6 +5,10 @@
       "url": "https://cangyao.github.io/fongmi-subscriptions/all.json"
     },
     {
+      "name": "点播CMS专用：9个内容库，默认搜索5源",
+      "url": "https://cangyao.github.io/fongmi-subscriptions/vod-cms.json"
+    },
+    {
       "name": "完整搜索备用：119源参与，130站点与5组直播",
       "url": "https://cangyao.github.io/fongmi-subscriptions/full-search.json"
     },

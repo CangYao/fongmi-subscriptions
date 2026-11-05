@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-11-05T12:59:36.793Z",
+  "purpose": "Searchable VOD CMS APIs with sample HLS availability",
+  "siteCount": 9,
+  "defaultSearchCount": 5,
+  "sites": [
+    {
+      "key": "guangsu",
+      "name": "光速资源",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "lzi",
+      "name": "量子资源",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "subo",
+      "name": "素博资源",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "github_jszy",
+      "name": "极速资源",
+      "api": "https://jszyapi.com/api.php/provide/vod/",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "github_ikun",
+      "name": "ikun资源",
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "github_hongniu",
+      "name": "红牛资源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "github_huohu",
+      "name": "火狐资源",
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "github_huya",
+      "name": "虎牙资源",
+      "api": "https://www.huyaapi.com/api.php/provide/vod/",
+      "searchOk": true,
+      "detailOk": true
+    },
+    {
+      "key": "github_wujin",
+      "name": "无尽资源",
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "searchOk": true,
+      "detailOk": true
+    }
+  ],
+  "core": [
+    {
+      "key": "lzi",
+      "name": "量子资源"
+    },
+    {
+      "key": "github_huohu",
+      "name": "火狐资源"
+    },
+    {
+      "key": "github_ikun",
+      "name": "ikun资源"
+    },
+    {
+      "key": "github_wujin",
+      "name": "无尽资源"
+    },
+    {
+      "key": "github_huya",
+      "name": "虎牙资源"
+    }
+  ],
+  "notSelectedThisRun": [
+    {
+      "key": "dyttzy",
+      "name": "电影天堂资源",
+      "error": null
+    },
+    {
+      "key": "ffzy",
+      "name": "非凡资源",
+      "error": null
+    },
+    {
+      "key": "haiwaikan",
+      "name": "海外看",
+      "error": "fetch failed"
+    },
+    {
+      "key": "索尼",
+      "name": "索尼",
+      "error": "Unexpected token '暂', \"暂不支持搜索\" is not valid JSON"
+    },
+    {
+      "key": "乐视",
+      "name": "乐视",
+      "error": "fetch failed"
+    },
+    {
+      "key": "github_baidu",
+      "name": "百度云资源",
+      "error": null
+    },
+    {
+      "key": "暴風",
+      "name": "暴風",
+      "error": null
+    }
+  ],
+  "criteria": [
+    "Keyword search returns movie/series records",
+    "Detail lookup returns episode playback addresses",
+    "At least one sampled HLS playlist and media fragment reachable; AES key checked if present"
+  ],
+  "needsAndroidJar": false,
+  "needsLocalParseServer": false,
+  "androidFullPlaybackTested": false,
+  "doesNotEstablishWholeSiteFailureForExcludedSources": true
+}
