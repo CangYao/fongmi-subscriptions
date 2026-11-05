@@ -1,8 +1,12 @@
 {
   "urls": [
     {
-      "name": "合并去重源：130站点 + 5组直播（已清理确认失效项）",
+      "name": "快速搜索：默认5源，保留130站点与5组直播",
       "url": "https://cangyao.github.io/fongmi-subscriptions/all.json"
+    },
+    {
+      "name": "完整搜索备用：119源参与，130站点与5组直播",
+      "url": "https://cangyao.github.io/fongmi-subscriptions/full-search.json"
     },
     {
       "name": "直播扩展试用：12点播 + 3直播",

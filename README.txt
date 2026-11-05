@@ -1,3 +1,18 @@
+Search optimization: 2026-11-05
+
+Main all.json now participates in aggregate/quick search through 5 CMS sites only:
+Baofeng, Liangzi, Huohu, ikun, and Dytt.
+All 130 site entries and 5 live playlists remain available for browsing and playback.
+Only searchable and quickSearch flags changed; source keys, APIs, drivers, playback parameters and live playlists are preserved.
+
+If a title cannot be found, use this full-search backup:
+https://cangyao.github.io/fongmi-subscriptions/full-search.json
+This backup retains the previous 119 search-enabled sources.
+The configuration selector index.json includes both modes.
+
+FongMi interprets searchable=0 as disabled by configuration. To search all sources again, switch to the full-search subscription; the other sources remain browsable in the main configuration.
+The 5-source set covered 241 of 250 deduplicated titles returned on the first page of seven test keywords. This is sample search-result coverage, not full-catalog coverage or playback success.
+
 FongMi subscription configurations
 
 Main subscription:
