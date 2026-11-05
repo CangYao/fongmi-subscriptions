@@ -165,7 +165,7 @@
     },
     {
       "key": "drpy_js_磁力熊搜索",
-      "name": "熊搜",
+      "name": "熊搜（代理）",
       "type": 3,
       "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "indexs": 1,
@@ -194,7 +194,7 @@
     },
     {
       "key": "Youtube",
-      "name": "Youtube",
+      "name": "Youtube（代理）",
       "type": 3,
       "api": "csp_Youtube",
       "searchable": 1,
@@ -243,7 +243,7 @@
     },
     {
       "key": "TGYunPanLocal",
-      "name": "TG频道搜索",
+      "name": "TG频道搜索（代理）",
       "type": 3,
       "api": "csp_TGYunPanLocal",
       "timeout": 120,
@@ -515,7 +515,7 @@
     },
     {
       "key": "Bt0",
-      "name": "不太灵",
+      "name": "不太灵（代理）",
       "type": 3,
       "api": "csp_Bt0",
       "quickSearch": 1,
@@ -605,7 +605,7 @@
     },
     {
       "key": "獨播",
-      "name": "獨播",
+      "name": "獨播（代理）",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -614,7 +614,7 @@
     },
     {
       "key": "Wobg",
-      "name": "表哥",
+      "name": "表哥（代理）",
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
@@ -625,7 +625,7 @@
     },
     {
       "key": "yydsys",
-      "name": "老哥",
+      "name": "老哥（代理）",
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
@@ -647,7 +647,7 @@
     },
     {
       "key": "土豆",
-      "name": "土豆|网盘",
+      "name": "土豆|网盘（代理）",
       "type": 3,
       "api": "csp_Wobg",
       "searchable": 1,
@@ -691,7 +691,7 @@
     },
     {
       "key": "Gaoqing",
-      "name": "高清网",
+      "name": "高清网（代理）",
       "type": 3,
       "api": "csp_Gaoqing",
       "quickSearch": 1,
@@ -702,7 +702,7 @@
     },
     {
       "key": "音范丝",
-      "name": "音范丝",
+      "name": "音范丝（代理）",
       "type": 3,
       "api": "csp_Gaoqing",
       "quickSearch": 1,
@@ -713,7 +713,7 @@
     },
     {
       "key": "ddys",
-      "name": "低端",
+      "name": "低端（代理）",
       "type": 3,
       "api": "csp_Ddys",
       "quickSearch": 1,
@@ -777,7 +777,7 @@
     },
     {
       "key": "校长影视",
-      "name": "校长",
+      "name": "校长（代理）",
       "type": 3,
       "api": "csp_XiaoZhang",
       "ext": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json$$$https://xzyshd.com$$$proxy$$$1",
@@ -797,7 +797,7 @@
     },
     {
       "key": "YunPan",
-      "name": "云盘",
+      "name": "云盘（代理）",
       "type": 3,
       "api": "csp_YunPan",
       "timeout": 60,
@@ -805,7 +805,7 @@
     },
     {
       "key": "Wo4k",
-      "name": "玩偶4k",
+      "name": "玩偶4k（代理）",
       "type": 3,
       "api": "csp_Wo4k",
       "quickSearch": 1,
@@ -923,7 +923,7 @@
     },
     {
       "key": "YunPanOne",
-      "name": "云盘One",
+      "name": "云盘One（代理）",
       "type": 3,
       "api": "csp_YunPanOne",
       "quickSearch": 1,
@@ -1176,7 +1176,7 @@
     },
     {
       "key": "drpy_js_MP4US",
-      "name": "MP4电影[js]",
+      "name": "MP4电影[js]（代理）",
       "type": 3,
       "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/mp4us.js",
@@ -1200,7 +1200,7 @@
     },
     {
       "key": "drpy_js_kuba",
-      "name": "酷吧[js]",
+      "name": "酷吧[js]（代理）",
       "type": 3,
       "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/kuba.js",
@@ -1232,7 +1232,7 @@
     },
     {
       "key": "drpy_js_ddys",
-      "name": "低端[js]",
+      "name": "低端[js]（代理）",
       "type": 3,
       "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/ddys.js",
@@ -1262,7 +1262,7 @@
     },
     {
       "key": "drpy_js_dydhhy",
-      "name": "dydhhy[js]",
+      "name": "dydhhy[js]（代理）",
       "type": 3,
       "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/dydhhy.js",
@@ -1302,7 +1302,7 @@
     },
     {
       "key": "drpy_js_奇妙搜[夸]",
-      "name": "奇妙搜[js]",
+      "name": "奇妙搜[js]（代理）",
       "type": 3,
       "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/qimiao.js",
@@ -1362,7 +1362,7 @@
     },
     {
       "key": "haiwaikan",
-      "name": "海外看",
+      "name": "海外看（代理）",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",

@@ -1,0 +1,278 @@
+{
+  "policy": "Append （代理） only to source display names supported by explicit proxy parameters or declared site-host proxy rules.",
+  "uniqueMarkedSources": 21,
+  "affectedFiles": {
+    "all.json": 21,
+    "full-search.json": 21
+  },
+  "unchangedFiles": [
+    "trial.json",
+    "vod-cms.json"
+  ],
+  "excludeGlobalRawDependencyHost": true,
+  "excludeExplicitNoProxy": true,
+  "excludeLocalMediaRelayQueryParameters": true,
+  "doesNotProveProxyRequiredOnEveryNetwork": true,
+  "sources": [
+    {
+      "key": "Youtube",
+      "name": "Youtube（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext.proxy",
+          "value": "socks5://127.0.0.1:10172"
+        }
+      ]
+    },
+    {
+      "key": "TGYunPanLocal",
+      "name": "TG频道搜索（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext.proxy",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "Bt0",
+      "name": "不太灵（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "獨播",
+      "name": "獨播（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "SOCKS proxy URL"
+        },
+        {
+          "kind": "declared-proxy-rule",
+          "host": "www.duboku.tv",
+          "rules": [
+            ".*boku.*"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Wobg",
+      "name": "表哥（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "yydsys",
+      "name": "老哥（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "土豆",
+      "name": "土豆|网盘（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "Gaoqing",
+      "name": "高清网（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "音范丝",
+      "name": "音范丝（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "ddys",
+      "name": "低端（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        },
+        {
+          "kind": "declared-proxy-rule",
+          "host": "ddys.pro",
+          "rules": [
+            "ddys.pro"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "校长影视",
+      "name": "校长（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "YunPan",
+      "name": "云盘（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "Wo4k",
+      "name": "玩偶4k（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "YunPanOne",
+      "name": "云盘One（代理）",
+      "reasons": [
+        {
+          "kind": "explicit-proxy",
+          "field": "ext",
+          "value": "proxy"
+        }
+      ]
+    },
+    {
+      "key": "drpy_js_磁力熊搜索",
+      "name": "熊搜（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "www.cilixiong.com",
+          "rules": [
+            "www.cilixiong.com"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drpy_js_MP4US",
+      "name": "MP4电影[js]（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "www.mp4us.com",
+          "rules": [
+            "mp4us.com"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drpy_js_kuba",
+      "name": "酷吧[js]（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "www.kuba222.com",
+          "rules": [
+            "kuba222.com"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drpy_js_ddys",
+      "name": "低端[js]（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "ddys.pro",
+          "rules": [
+            "ddys.pro"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drpy_js_dydhhy",
+      "name": "dydhhy[js]（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "www.dydhhy.com",
+          "rules": [
+            "dydhhy.com"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drpy_js_奇妙搜[夸]",
+      "name": "奇妙搜[js]（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "www.magicalsearch.top",
+          "rules": [
+            "magicalsearch.top"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "haiwaikan",
+      "name": "海外看（代理）",
+      "reasons": [
+        {
+          "kind": "declared-proxy-rule",
+          "host": "haiwaikan.com",
+          "rules": [
+            "haiwaikan.com"
+          ]
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-05T21:15:03.2378110+08:00"
+}

@@ -1,3 +1,11 @@
+Proxy display labels
+
+Sources with explicit proxy parameters or source-host matches in the declared proxy rules have （代理） appended to their names in all.json and full-search.json. There are 21 unique labeled source entries.
+Labels describe configuration-level proxy usage, not a fresh direct-versus-proxied playback test on every network.
+Explicit noproxy settings, generic GitHub dependency downloads, local media relay URLs, and transient request failures are not used alone as proxy-label evidence.
+Only site display names changed; source identifiers, URLs, search flags and playback parameters are preserved.
+See proxy-labels.json for each label's evidence. No labels were added to trial.json or vod-cms.json because those CMS configurations have no explicit matching proxy settings.
+
 Search optimization: 2026-11-05
 
 Main all.json now participates in aggregate/quick search through 5 CMS sites only:
