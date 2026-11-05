@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-05T20:34:25.1071718+08:00",
+  "updatedAt": "2026-11-05T22:28:30.122+08:00",
   "totalSiteEntries": 130,
   "livePlaylists": 5,
-  "previousSearchEnabled": 119,
-  "searchEnabled": 5,
+  "previousSearchEnabled": 5,
+  "searchEnabled": 6,
   "coreSites": [
     {
       "key": "lzi",
@@ -22,11 +22,15 @@
       "name": "火狐资源"
     },
     {
+      "key": "github_wujin",
+      "name": "无尽资源"
+    },
+    {
       "key": "暴風",
       "name": "暴風"
     }
   ],
-  "nonCoreSitesRetained": 125,
+  "nonCoreSitesRetained": 124,
   "mainSubscription": "https://cangyao.github.io/fongmi-subscriptions/all.json",
   "fullSearchBackup": "https://cangyao.github.io/fongmi-subscriptions/full-search.json",
   "changedFields": [
@@ -38,7 +42,15 @@
     "isFullCatalogCoverage": false,
     "totalSampleTitles": 250,
     "ratio": 0.964,
-    "keywords": 7
+    "keywords": 7,
+    "measuredCoreSiteKeys": [
+      "lzi",
+      "dyttzy",
+      "github_ikun",
+      "github_huohu",
+      "暴風"
+    ],
+    "note": "Historical sample measured before Wujin was added; six-source coverage was not re-measured."
   },
   "androidDeviceTested": false
 }

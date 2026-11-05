@@ -8,8 +8,8 @@ See proxy-labels.json for each label's evidence. No labels were added to trial.j
 
 Search optimization: 2026-11-05
 
-Main all.json now participates in aggregate/quick search through 5 CMS sites only:
-Baofeng, Liangzi, Huohu, ikun, and Dytt.
+Main all.json now participates in aggregate/quick search through 6 CMS sites only:
+Baofeng, Liangzi, Huohu, ikun, Dytt, and Wujin.
 All 130 site entries and 5 live playlists remain available for browsing and playback.
 Only searchable and quickSearch flags changed; source keys, APIs, drivers, playback parameters and live playlists are preserved.
 
@@ -19,7 +19,7 @@ This backup retains the previous 119 search-enabled sources.
 The configuration selector index.json includes both modes.
 
 FongMi interprets searchable=0 as disabled by configuration. To search all sources again, switch to the full-search subscription; the other sources remain browsable in the main configuration.
-The 5-source set covered 241 of 250 deduplicated titles returned on the first page of seven test keywords. This is sample search-result coverage, not full-catalog coverage or playback success.
+The previous 5-source set (before adding Wujin) covered 241 of 250 deduplicated titles returned on the first page of seven test keywords. This is sample search-result coverage, not full-catalog coverage or playback success.
 
 FongMi subscription configurations
 
@@ -49,3 +49,4 @@ Raw fallback:
 https://raw.githubusercontent.com/CangYao/fongmi-subscriptions/main/all.json
 
 Only public configuration addresses are stored here. Configurations are snapshots and are not automatically re-merged or retested.
+

@@ -150,8 +150,8 @@
       "api": "https://api.wujinapi.com/api.php/provide/vod/",
       "changeable": 1,
       "timeout": 12,
-      "searchable": 0,
-      "quickSearch": 0
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "豆瓣",
